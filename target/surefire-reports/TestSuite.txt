@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.351 s <<< FAILURE! - in TestSuite
+checkoutTesting(BELSTAFF.checkoutpage)  Time elapsed: 26.966 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='dwfrm_product_addtocart_d0jexjvfjfrk']//button[@id='add-to-cart']  "}
+  (Session info: headless chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KRISH-SURFACE', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\anjal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d1403e06ba71b53069a8a3b18843b92
+*** Element info: {Using=xpath, value=//form[@id='dwfrm_product_addtocart_d0jexjvfjfrk']//button[@id='add-to-cart']  }
+	at BELSTAFF.checkoutpage.checkoutTesting(checkoutpage.java:33)
+
+pricematchingvalidation(BELSTAFF.checkoutpage)  Time elapsed: 20.059 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='value mini-cart-price price-adjusted product-sales-price text-uppercase']  "}
+  (Session info: headless chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KRISH-SURFACE', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\anjal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d1403e06ba71b53069a8a3b18843b92
+*** Element info: {Using=xpath, value=//span[@class='value mini-cart-price price-adjusted product-sales-price text-uppercase']  }
+	at BELSTAFF.checkoutpage.pricematchingvalidation(checkoutpage.java:55)
+
